@@ -1,0 +1,22 @@
+{
+  "name": "discord-vc-join-notification",
+  "version": "1.0.0",
+  "description": "特定の誰かがVCに入ったらチャンネルに通知",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Kamesuta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Team-Fruit/DiscordVCJoinNotification.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.1",
+    "discord.js": "^12.2.0",
+    "i18n": "^0.10.0",
+    "js-yaml": "^3.14.0"
+  },
+  "devDependencies": {}
+}

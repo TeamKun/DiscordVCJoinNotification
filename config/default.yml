@@ -1,0 +1,13 @@
+# ボットのトークン (環境変数 $DISCORD_TOKEN で指定可)
+token: ""
+
+# 言語 (en, ja)
+locale: ja
+
+# 発信するチャンネル (複数指定可)
+channels:
+  - guild: "000000000000000000" # DiscordサーバーID
+    channel: "000000000000000000" # DiscordチャンネルID
+    observechannel: "000000000000000000" # 監視VCチャンネルID
+    observeuser: "000000000000000000" # 監視ユーザーID
+    message: "" # メッセージ
