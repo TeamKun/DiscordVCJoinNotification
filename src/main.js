@@ -26,7 +26,7 @@ client.on('voiceStateUpdate', async (oldState, newState) => {
         return;
       if (newState.channel.id !== channelData.observechannel)
         return;
-      if (newState.member.id !== channelData.observeuser)
+      if (channelData.observeuser && newState.member.id !== channelData.observeuser)
         return;
       const channel = newState.guild.channels.resolve(channelData.channel);
       channel.send(channelData.message);
